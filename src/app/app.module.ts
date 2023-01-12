@@ -3,10 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ColorDirective } from './color.directive';
+import { CheckNumDirective } from './check-num.directive';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColorDirective,
+    CheckNumDirective,
   ],
   imports: [
     BrowserModule,
